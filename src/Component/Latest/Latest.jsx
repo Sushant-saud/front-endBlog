@@ -10,7 +10,7 @@ function Latest() {
   const [latest, setlatest] = useState([]);
   useEffect(() => {
     const getdata = async () => {
-      const res = await axios.get("http://localhost:5000/api/latest");
+      const res = await axios.get("https://first-blog123.herokuapp.com/api/latest");
       setlatest(res.data);
     
 

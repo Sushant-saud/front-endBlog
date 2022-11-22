@@ -14,7 +14,7 @@ function Bollywood() {
   const [bolly, setbolly] = useState([]);
   useEffect(() => {
     const getdata = async () => {
-      const res = await axios("http://localhost:5000/api/bollywood");
+      const res = await axios("https://first-blog123.herokuapp.com/api/bollywood");
       setbolly(res.data);
       console.log(res.data);
     }
