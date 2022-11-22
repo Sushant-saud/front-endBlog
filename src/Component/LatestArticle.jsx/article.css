@@ -1,0 +1,31 @@
+.article-main {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.All-main {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:1rem;
+  
+}
+.Navv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+@media screen and (max-width: 1500px) {
+  .hom11 {
+    display: none;
+  }
+  .All-main {
+    width: 100%;
+  }
+}

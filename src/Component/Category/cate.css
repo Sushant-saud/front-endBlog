@@ -1,0 +1,24 @@
+
+.cat{
+display:flex;
+}
+.cat .travels{
+  text-align: left;
+ font-weight:bold;
+ font-size:1.1rem;
+  letter-spacing: 0px;
+  opacity: 0.9;
+  color: #404040;
+  margin-left:3rem;
+  display: inline-block;
+}
+.cat .dates{
+  text-align:left;
+  font-size:1rem;
+  font-weight:normal;
+  letter-spacing: 0.85px;
+  display: inline-block;
+  color: #404040;
+  opacity: 0.24;
+  
+}

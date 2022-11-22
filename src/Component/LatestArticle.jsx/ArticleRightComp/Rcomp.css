@@ -1,0 +1,54 @@
+.RcompCol{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.serial-vai{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.Rcomp {
+  width: 450px;
+  height: 750px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  position: relative;
+  margin-bottom:-4rem;
+}
+.Navv1{
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  margin-bottom:-3rem;
+  margin-top:-3rem;
+}
+.Adv
+{
+position: absolute; 
+top:50%;
+left:27%;
+width: 318px;
+height: 49px;
+}
+ .Adv p{
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #191515;
+    opacity:1;
+}
+@media screen  and (max-width:1500px){
+  .Rcomp{
+    display: none;
+  }
+  .RcompCol{
+   width: 100%;
+  }
+
+}

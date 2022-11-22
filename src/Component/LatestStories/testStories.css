@@ -1,0 +1,43 @@
+.LatestStories
+{
+display:flex;
+align-items: flex-start;
+justify-content:center;
+flex-direction: column;
+padding:10px;
+border-right:2px solid #F0F0F0;
+border-bottom:2px solid #F0F0F0; ;
+opacity: 1;
+gap:3rem;
+}
+.Heading{
+ width: 270px;
+ height:60px;
+}
+.Heading h2{
+    text-align: left;
+    font-size:20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.paragraph{
+    width: 300px;
+    height: 145px;
+    text-align: left;
+}
+.paragraph p{
+font-weight: normal;
+font-size:1rem;
+letter-spacing: 0px;
+color: #908D8D;
+opacity: 1;
+
+}
+.cate-div{
+     display:flex;
+     justify-content:center;
+     align-items:flex-start; 
+     margin-left:-3rem; 
+     padding:10px;
+}
