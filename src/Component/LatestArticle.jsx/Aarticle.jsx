@@ -12,7 +12,7 @@ function Article() {
   const [articel, setarticle] = useState([]);
   useEffect(() => {
     const getdata = async () => {
-      const res = await axios.get("http://localhost:5000/api/latestarticle");
+      const res = await axios.get("https://first-blog123.herokuapp.com/api/latestarticle");
       setarticle(res.data);
      
     }
