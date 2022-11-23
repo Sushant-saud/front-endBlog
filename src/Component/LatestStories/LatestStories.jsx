@@ -16,7 +16,7 @@ function LatestStories({res}) {
                     <p>{res.desc}</p>
                 </div>
                 <div className='cate-div'>
-                    <Category data1={res.category}data2={res.createdAt} />
+                    <Category data1={res}/>
                 </div>
             </div>
         </>
