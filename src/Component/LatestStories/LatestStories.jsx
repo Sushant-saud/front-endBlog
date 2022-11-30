@@ -16,11 +16,7 @@ function LatestStories({res}) {
                     <p>{res.desc}</p>
                 </div>
                 <div className='cate-div'>
-<<<<<<< HEAD
                     <Category data1={res}/>
-=======
-                    <Category data1={res} />
->>>>>>> 57422b5c49b6c9b201cf7a84515272bf742c4281
                 </div>
             </div>
         </>
