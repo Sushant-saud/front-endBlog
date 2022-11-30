@@ -35,10 +35,10 @@ function Header() {
             </li>
 
             <li>
-              <NavLink to='/'>Technology</NavLink>
+              <NavLink to='/tech'>Technology</NavLink>
             </li>
             <li>
-              <NavLink to='/'>Hollywood</NavLink>
+              <NavLink to='/bollywood'>Hollywood</NavLink>
             </li>
           </ul>
         </nav>

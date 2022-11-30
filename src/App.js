@@ -8,13 +8,15 @@ import {Routes, Route } from "react-router-dom";
 import Latest from './Component/Latest/Latest';
 import Header from './Component/Header/Header';
 import Toppost from './Component/LatestArticle.jsx/TopPost/Toppost';
+import MainTech from './Component/MainTech/Maintech';
 function App() {
   return (
     <div className='App'>
    <Header/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route exect path="/bollywood" element={<Bollywood />} />
+        <Route exect path="/tech" element={<MainTech/>} />
         <Route exect path="/latest/:id" element={<Single />} />
         <Route exect path="/latestarticle/:id" element={<Single />} />
         <Route exect path="/lateststories/:id" element={<Single />} />

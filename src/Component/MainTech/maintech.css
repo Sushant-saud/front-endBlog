@@ -1,0 +1,26 @@
+.main-tech{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Nav1{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: cen
+}
+.adjust-all{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:600px) {
+    .adjust-all{
+        margin-top:3rem;
+    }
+}
